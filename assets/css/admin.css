@@ -1,0 +1,11 @@
+.stvl-admin-grid .stvl-image-preview img {
+	display: block;
+	max-width: 240px;
+	height: auto;
+	margin-top: 12px;
+	border-radius: 12px;
+}
+
+.stvl-admin-grid p {
+	max-width: 760px;
+}
