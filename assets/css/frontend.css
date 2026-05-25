@@ -97,14 +97,14 @@
 	aspect-ratio: 16 / 10;
 	overflow: hidden;
 	background: linear-gradient(135deg, #0a0a0a 0%, #261307 42%, #ff6c00 100%);
-	border-radius: 28px 28px 0 0;
+	border-radius: 28px 28px 0 0 !important;
 }
 
 .stvl-video-thumb img,
 .stvl-thumb-overlay {
 	width: 100%;
 	height: 100%;
-	border-radius: 28px 28px 0 0;
+	border-radius: 28px 28px 0 0 !important;
 }
 
 .stvl-video-thumb img {
