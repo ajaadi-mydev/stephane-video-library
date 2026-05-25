@@ -8,6 +8,10 @@
 	--stvl-shadow: 0 18px 50px rgba(7, 22, 19, 0.08);
 }
 
+:root body.stvl-modal-open {
+	overflow: hidden !important;
+}
+
 .stvl-video-gallery {
 	width: 100%;
 }
@@ -270,10 +274,11 @@
 .stvl-modal {
 	position: fixed;
 	inset: 0;
-	z-index: 999999;
+	z-index: 2147483647;
 	padding: 120px 16px 32px;
 	box-sizing: border-box;
 	overflow-y: auto;
+	isolation: isolate;
 }
 
 .stvl-modal-overlay {
