@@ -270,7 +270,10 @@
 .stvl-modal {
 	position: fixed;
 	inset: 0;
-	z-index: 100000;
+	z-index: 999999;
+	padding: 120px 16px 32px;
+	box-sizing: border-box;
+	overflow-y: auto;
 }
 
 .stvl-modal-overlay {
@@ -282,12 +285,12 @@
 .stvl-modal-dialog {
 	position: relative;
 	max-width: 960px;
-	margin: 8vh auto 4vh;
+	margin: 0 auto;
 	padding: 28px;
 	background: var(--stvl-white);
 	border-radius: 24px;
-	width: calc(100% - 32px);
-	max-height: 92vh;
+	width: 100%;
+	max-height: calc(100vh - 152px);
 	overflow: auto;
 }
 
@@ -365,5 +368,6 @@
 
 	.stvl-modal-dialog {
 		padding: 20px;
+		max-height: calc(100vh - 136px);
 	}
 }
