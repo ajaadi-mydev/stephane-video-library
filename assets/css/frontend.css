@@ -100,9 +100,14 @@
 	border-radius: 28px 28px 0 0;
 }
 
-.stvl-video-thumb img {
+.stvl-video-thumb img,
+.stvl-thumb-overlay {
 	width: 100%;
 	height: 100%;
+	border-radius: 28px 28px 0 0;
+}
+
+.stvl-video-thumb img {
 	object-fit: cover;
 	display: block;
 }
@@ -130,13 +135,14 @@
 	left: 18px;
 	background: rgba(255, 255, 255, 0.92);
 	color: var(--stvl-dark);
-	width: 64px;
-	height: 64px;
+	width: 28px;
+	height: 28px;
 	padding: 0;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
+	font-size: 11px;
 }
 
 .stvl-video-duration {
