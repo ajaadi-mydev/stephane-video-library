@@ -598,7 +598,8 @@ class STVL_Widget_Video_Gallery extends Widget_Base {
 					'size' => 28,
 				),
 				'selectors'  => array(
-					'{{WRAPPER}} .stvl-video-card, {{WRAPPER}} .stvl-video-thumb' => 'border-radius: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .stvl-video-card' => 'border-radius: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .stvl-video-thumb, {{WRAPPER}} .stvl-video-thumb img, {{WRAPPER}} .stvl-thumb-overlay' => 'border-radius: {{SIZE}}{{UNIT}} {{SIZE}}{{UNIT}} 0 0;',
 				),
 			)
 		);
